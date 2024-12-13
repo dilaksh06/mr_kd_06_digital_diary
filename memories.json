@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "title": "New Year's Eve",
+        "description": "Had an amazing celebration with family and friends!",
+        "image": "https://via.placeholder.com/300",
+        "date": "January 1, 2024",
+        "details": "We had fireworks, music, and a delicious feast.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Beach Day",
+        "description": "Relaxed by the beach and enjoyed the sunset.",
+        "image": "https://via.placeholder.com/300",
+        "date": "February 15, 2024",
+        "details": "A peaceful day by the ocean with sandcastles and ice cream.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Mountain Hike",
+        "description": "Took a challenging hike to the top of the mountain.",
+        "image": "https://via.placeholder.com/300",
+        "date": "March 20, 2024",
+        "details": "Enjoyed breathtaking views and fresh air at the summit.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Birthday Party",
+        "description": "Celebrated my best friend's birthday with a surprise party!",
+        "image": "https://via.placeholder.com/300",
+        "date": "April 10, 2024",
+        "details": "We had cake, games, and unforgettable memories.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Family BBQ",
+        "description": "Had a fantastic BBQ with my family on a sunny afternoon.",
+        "image": "https://via.placeholder.com/300",
+        "date": "May 5, 2024",
+        "details": "Grilled delicious food, played games, and enjoyed the weather.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "City Tour",
+        "description": "Explored the city's famous landmarks and museums.",
+        "image": "https://via.placeholder.com/300",
+        "date": "June 18, 2024",
+        "details": "Visited historic buildings and learned about the city's rich history.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Concert Night",
+        "description": "Went to an amazing concert with my friends.",
+        "image": "https://via.placeholder.com/300",
+        "date": "July 22, 2024",
+        "details": "Had a blast dancing and singing along to the music.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Camping Trip",
+        "description": "Spent a weekend camping in the wilderness.",
+        "image": "https://via.placeholder.com/300",
+        "date": "August 14, 2024",
+        "details": "Hiked, camped under the stars, and enjoyed nature.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Cooking Class",
+        "description": "Took a cooking class to learn how to make pasta from scratch.",
+        "image": "https://via.placeholder.com/300",
+        "date": "September 8, 2024",
+        "details": "Learned new techniques and made delicious homemade pasta.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Road Trip",
+        "description": "Took a spontaneous road trip to the coast with friends.",
+        "image": "https://via.placeholder.com/300",
+        "date": "October 12, 2024",
+        "details": "Visited scenic spots and took tons of pictures along the way.",
+        "photos": [
+            "https://via.placeholder.com/400",
+            "https://via.placeholder.com/500"
+        ]
+    }
+]
