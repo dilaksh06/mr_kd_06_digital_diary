@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import memories from "../data/memories.json";
 
 const MemoryDetail = () => {
     const { id } = useParams();
-    const memory = memories.find((memory) => memory.id === parseInt(id));
+    const [memory, setMemory] = useState(null);
+
+    useEffect(() => {
+        // Fetch the JSON data from the public folder
+        fetch("/memories.json")
+            .then((response) => response.json())
+            .then((data) => {
+                // Find the memory with the matching ID
+                const memoryDetail = data.find((memory) => memory.id === parseInt(id));
+                setMemory(memoryDetail);
+            })
+            .catch((error) => console.error("Error fetching memory details:", error));
+    }, [id]);
 
     if (!memory) {
         return <h2>Memory not found!</h2>;

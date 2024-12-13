@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import Card from "./Card";
-import memories from "../data/memories.json"; // Make sure the path is correct
 
 const CardList = () => {
-    const [loadedMemories, setLoadedMemories] = useState(null);
+    const [loadedMemories, setLoadedMemories] = useState([]);
 
     useEffect(() => {
-        // Simulating a delay like an API call
-        setTimeout(() => {
-            setLoadedMemories(memories); // Here we set the static memories after a delay
-        }, 1000); // 1 second delay to simulate loading
+        // Fetch the JSON data from the public directory
+        fetch("/memories.json")
+            .then((response) => response.json())
+            .then((data) => setLoadedMemories(data))
+            .catch((error) => console.error("Error fetching memories:", error));
     }, []);
 
-    if (loadedMemories === null) {
+    if (loadedMemories.length === 0) {
         return <p>Loading memories...</p>;
     }
 
